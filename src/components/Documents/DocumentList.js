@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useAuth } from '../../contexts/AuthContext';
@@ -25,11 +25,7 @@ const DocumentList = () => {
   const isPresident = user?.role === 'president';
   const communityId = user?.community?._id || user?.community?.id || user?.communityId;
 
-  useEffect(() => {
-    fetchDocuments();
-  }, [communityId]);
-
-  const fetchDocuments = async () => {
+  const fetchDocuments = useCallback(async () => {
     if (!communityId) return;
 
     setIsLoading(true);
@@ -43,7 +39,11 @@ const DocumentList = () => {
     } finally {
       setIsLoading(false);
     }
-  };
+  }, [communityId]);
+
+  useEffect(() => {
+    fetchDocuments();
+  }, [fetchDocuments]);
 
   const handleUploadDocument = async (e) => {
     e.preventDefault();

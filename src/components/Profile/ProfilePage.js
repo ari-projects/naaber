@@ -6,7 +6,7 @@ import backendClient from '../../services/backendClient';
 
 const ProfilePage = () => {
   const { t, i18n } = useTranslation(['profile', 'common']);
-  const { user, logout, updateUser } = useAuth();
+  const { logout, updateUser } = useAuth();
   const navigate = useNavigate();
 
   const [isEditing, setIsEditing] = useState(false);

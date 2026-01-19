@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useAuth } from '../../contexts/AuthContext';
@@ -28,14 +28,7 @@ const PaymentList = () => {
   const isPresident = user?.role === 'president';
   const communityId = user?.community?._id || user?.community?.id || user?.communityId;
 
-  useEffect(() => {
-    fetchPayments();
-    if (isPresident) {
-      fetchFlats();
-    }
-  }, [communityId, isPresident]);
-
-  const fetchPayments = async () => {
+  const fetchPayments = useCallback(async () => {
     if (!communityId) return;
 
     setIsLoading(true);
@@ -49,9 +42,9 @@ const PaymentList = () => {
     } finally {
       setIsLoading(false);
     }
-  };
+  }, [communityId]);
 
-  const fetchFlats = async () => {
+  const fetchFlats = useCallback(async () => {
     if (!communityId) return;
     try {
       const response = await backendClient.get(`/api/communities/${communityId}/flats`);
@@ -61,7 +54,14 @@ const PaymentList = () => {
     } catch (err) {
       console.error('Failed to fetch flats:', err);
     }
-  };
+  }, [communityId]);
+
+  useEffect(() => {
+    fetchPayments();
+    if (isPresident) {
+      fetchFlats();
+    }
+  }, [fetchPayments, fetchFlats, isPresident]);
 
   const handleCreatePayment = async (e) => {
     e.preventDefault();

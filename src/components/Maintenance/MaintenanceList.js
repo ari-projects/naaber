@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useAuth } from '../../contexts/AuthContext';
@@ -23,11 +23,7 @@ const MaintenanceList = () => {
   const isPresident = user?.role === 'president';
   const communityId = user?.community?._id || user?.community?.id || user?.communityId;
 
-  useEffect(() => {
-    fetchRequests();
-  }, [communityId]);
-
-  const fetchRequests = async () => {
+  const fetchRequests = useCallback(async () => {
     if (!communityId) return;
     setIsLoading(true);
     try {
@@ -40,7 +36,11 @@ const MaintenanceList = () => {
     } finally {
       setIsLoading(false);
     }
-  };
+  }, [communityId]);
+
+  useEffect(() => {
+    fetchRequests();
+  }, [fetchRequests]);
 
   const handleCreateRequest = async (e) => {
     e.preventDefault();

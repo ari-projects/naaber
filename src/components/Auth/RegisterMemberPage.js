@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Link, useNavigate, useParams, useSearchParams } from 'react-router-dom';
+import React, { useState, useEffect, useCallback } from 'react';
+import { Link, useParams, useSearchParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useAuth } from '../../contexts/AuthContext';
 import backendClient from '../../services/backendClient';
@@ -8,7 +8,6 @@ import LanguageSelector from '../Common/LanguageSelector';
 const RegisterMemberPage = () => {
   const { t } = useTranslation('auth');
   const { registerMember, isLoading, error, clearError } = useAuth();
-  const navigate = useNavigate();
   const { communityId: paramCommunityId } = useParams();
   const [searchParams] = useSearchParams();
 
@@ -32,14 +31,7 @@ const RegisterMemberPage = () => {
   // Get community ID from URL params or query string
   const communityId = paramCommunityId || searchParams.get('community');
 
-  // Fetch community and flats on mount
-  useEffect(() => {
-    if (communityId) {
-      fetchCommunity(communityId);
-    }
-  }, [communityId]);
-
-  const fetchCommunity = async (id) => {
+  const fetchCommunity = useCallback(async (id) => {
     setLoadingCommunity(true);
     setCommunityError('');
     try {
@@ -55,7 +47,14 @@ const RegisterMemberPage = () => {
     } finally {
       setLoadingCommunity(false);
     }
-  };
+  }, [t]);
+
+  // Fetch community and flats on mount
+  useEffect(() => {
+    if (communityId) {
+      fetchCommunity(communityId);
+    }
+  }, [communityId, fetchCommunity]);
 
   const handleChange = (e) => {
     const { name, value } = e.target;

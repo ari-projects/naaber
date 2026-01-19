@@ -234,7 +234,7 @@ class BackendClient {
    * Call this on logout or app unmount
    */
   cancelAllRequests() {
-    for (const [requestId, { controller, timeoutId }] of this.activeRequests) {
+    for (const [, { controller, timeoutId }] of this.activeRequests) {
       clearTimeout(timeoutId);
       controller.abort('cancelled');
     }

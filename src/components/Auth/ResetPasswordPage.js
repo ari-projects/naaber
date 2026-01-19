@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link, useParams, useNavigate } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useAuth } from '../../contexts/AuthContext';
 import LanguageSelector from '../Common/LanguageSelector';
@@ -8,7 +8,6 @@ const ResetPasswordPage = () => {
   const { t } = useTranslation('auth');
   const { resetPassword, isLoading, clearError } = useAuth();
   const { token } = useParams();
-  const navigate = useNavigate();
 
   const [formData, setFormData] = useState({
     password: '',

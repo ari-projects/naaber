@@ -4,11 +4,10 @@ import { useTranslation } from 'react-i18next';
 import { useAuth } from '../../contexts/AuthContext';
 import backendClient from '../../services/backendClient';
 import BottomNav from '../Common/BottomNav';
-import LanguageSelector from '../Common/LanguageSelector';
 
 const MemberDashboard = () => {
   const { t } = useTranslation(['dashboard', 'common', 'events']);
-  const { user, logout } = useAuth();
+  const { user } = useAuth();
   const navigate = useNavigate();
 
   const [announcements, setAnnouncements] = useState([]);

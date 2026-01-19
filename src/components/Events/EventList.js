@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useAuth } from '../../contexts/AuthContext';
@@ -25,11 +25,7 @@ const EventList = () => {
   const isPresident = user?.role === 'president';
   const communityId = user?.community?._id || user?.community?.id || user?.communityId;
 
-  useEffect(() => {
-    fetchEvents();
-  }, [communityId, showUpcoming]);
-
-  const fetchEvents = async () => {
+  const fetchEvents = useCallback(async () => {
     if (!communityId) return;
 
     setIsLoading(true);
@@ -45,7 +41,11 @@ const EventList = () => {
     } finally {
       setIsLoading(false);
     }
-  };
+  }, [communityId, showUpcoming]);
+
+  useEffect(() => {
+    fetchEvents();
+  }, [fetchEvents]);
 
   const handleCreateEvent = async (e) => {
     e.preventDefault();
