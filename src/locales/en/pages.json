@@ -1,0 +1,108 @@
+{
+  "landing": {
+    "hero": {
+      "title": "Stay connected with your neighbors.",
+      "tagline": "Updates from your building, all in one place.",
+      "description": "Naaber helps people who live in the same house or building share <bold>announcements</bold>, <bold>events</bold>, and <bold>local news</bold> so everyone stays informed.",
+      "imageAlt": "Neighbors talking in the courtyard",
+      "cta": "See what's happening in my building"
+    },
+    "highlights": [
+      "Get announcements from your community president.",
+      "See upcoming events in your building.",
+      "Stay informed about what's happening around you."
+    ],
+    "sections": {
+      "announcements": {
+        "title": "Announcements",
+        "description": "Important updates from your community president and building board."
+      },
+      "events": {
+        "title": "Events",
+        "description": "From casual meetups to official meetings, see what's planned in your building."
+      },
+      "news": {
+        "title": "Neighborhood news",
+        "description": "Short updates about what’s happening around your area."
+      }
+    },
+    "howItWorks": {
+      "title": "How Naaber works",
+      "step1":  {
+        "title": "Join your building space",
+        "description": "Create an account and choose the building or house you live in."
+      },
+      "step2": {
+        "title": "Get updates in one place",
+        "description": "See announcements, upcoming events, and local news without digging through group chats."
+      },
+      "step3": {
+        "title": "Stay in sync with your neighbors",
+        "description": "Reply, react, and share your own updates so everyone stays on the same page."
+      }
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "backButton": "Back",
+    "missionAlt": "Our Mission",
+    "teamAlt": "Our Team",
+    "visionAlt": "Our Vision",
+    "description": "This app was done for ourselves and we decided to share it with everyone."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "intro": "We'd love to hear from you! Whether you have a question about our meal planning features, need help with your account, or just want to share your feedback, our team is here to help.",
+    "getInTouch": {
+      "title": "Get in Touch",
+      "description": "The best way to reach us is by email. We typically respond within 24-48 hours during business days."
+    },
+    "helpSections": {
+      "title": "How Can We Help?",
+      "account": {
+        "title": "Account & Technical Support",
+        "description": "Having trouble logging in, managing your account, or experiencing technical issues? We're here to help troubleshoot and get you back on track."
+      },
+      "mealPlanning": {
+        "title": "Meal Planning Questions",
+        "description": "Need guidance on how to make the most of your meal plans? Have questions about recipes, ingredients, or dietary preferences? Let us know!"
+      },
+      "feedback": {
+        "title": "Feedback & Suggestions",
+        "description": "We're always looking to improve! Your feedback helps us make 9meals.ai better for everyone. Share your ideas, feature requests, or suggestions."
+      },
+      "privacy": {
+        "title": "Privacy Concerns",
+        "description": "Have questions about your data or want to exercise your privacy rights under GDPR? Contact us and we'll assist you promptly."
+      }
+    },
+    "beforeContact": {
+      "title": "Before You Contact Us",
+      "description": "When reaching out, please include as much detail as possible about your question or issue. This helps us provide you with the most accurate and helpful response."
+    },
+    "thankYou": "Thank you for using 9meals.ai. We appreciate your support and look forward to helping you on your meal planning journey! 🍽️"
+  },
+  "notFound": {
+    "title": "404",
+    "headline": "This page got eaten!",
+    "message": "Oops! The recipe you're looking for doesn't exist or has been moved to a different kitchen.",
+    "backHome": "Back to Homepage",
+    "goBack": "Go Back",
+    "explore": "Or explore these pages:",
+    "createMealPlan": "Create Meal Plan"
+  },
+  "footer": {
+    "brand": {
+      "nine": "9",
+      "meals": "meals",
+      "ai": ".ai"
+    },
+    "tagline": "AI-powered meal planning for busy people",
+    "learnMore": "About Us",
+    "links": {
+      "privacyPolicy": "Privacy Policy",
+      "cookiePolicy": "Cookie Policy",
+      "contactUs": "Contact Us"
+    }
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "pickMealToCook": "Elige una Comida para Cocinar",
+  "reviewMeals": "Revisar Comidas",
+  "myPreferences": "Mis Preferencias",
+  "title": "Tu plan de comidas",
+  "subtitle": "{{count}} comidas para la semana",
+  "generation": {
+    "title": "Creando tu plan de comidas",
+    "subtitle": "Esto suele tardar unos 30 segundos",
+    "steps": {
+      "analyzing": "Analizando tus preferencias...",
+      "generating": "Generando recetas personalizadas...",
+      "matching": "Buscando los mejores productos...",
+      "calculating": "Calculando tu lista de compras...",
+      "finalizing": "Finalizando tu plan de comidas..."
+    }
+  },
+  "rotatingDescriptions": [
+    "¿No te gusta una comida? Simplemente reemplázala.",
+    "¿No desayunas? Elimínalo por completo.",
+    "¿No te gustan estas comidas? Crea unas nuevas.",
+    "Toca cualquier comida para ver la receta completa.",
+    "Recuerda revisar tu lista de compras."
+  ],
+  "tips": {
+    "buyGroceries": "Compra los ingredientes antes de cocinar.",
+    "storeProper": "Almacena correctamente para mantener frescos.",
+    "startCooking": "Toca Empezar a Cocinar cuando cocines.",
+    "mealPlanned": "Cada comida está planificada para frescura óptima.",
+    "markComplete": "Cuando termines de cocinar, márcalo como completado.",
+    "freshUpTo": "Fresco hasta {{days}} días"
+  },
+  "tries": {
+    "remaining": "{{count}} intento restante",
+    "remaining_plural": "{{count}} intentos restantes",
+    "unlimited": "Planes de comidas ilimitados",
+    "noTries": "No quedan intentos",
+    "weeklyReset": "Los intentos se reinician semanalmente"
+  },
+  "mealTypes": {
+    "breakfast": "Desayuno",
+    "lunch": "Almuerzo",
+    "dinner": "Cena",
+    "snack": "Merienda"
+  },
+  "days": {
+    "monday": "Lunes",
+    "tuesday": "Martes",
+    "wednesday": "Miércoles",
+    "thursday": "Jueves",
+    "friday": "Viernes",
+    "saturday": "Sábado",
+    "sunday": "Domingo",
+    "today": "Hoy",
+    "tomorrow": "Mañana"
+  },
+  "actions": {
+    "save": "Guardar plan",
+    "saving": "Guardando...",
+    "saved": "¡Guardado!",
+    "startOver": "Empezar de nuevo",
+    "regenerate": "Crear nuevo plan",
+    "replace": "Reemplazar",
+    "remove": "Eliminar",
+    "removeAll": "Eliminar todo",
+    "viewRecipe": "Ver receta",
+    "viewGroceryList": "Ver lista de compras",
+    "viewGroceriesList": "Ver lista de compras",
+    "buyGroceries": "Comprar",
+    "startCooking": "Empezar a cocinar",
+    "markCooked": "Marcar como cocinado"
+  },
+  "confirmations": {
+    "removeRecipe": {
+      "title": "¿Eliminar esta receta?",
+      "message": "Siempre puedes añadirla de nuevo más tarde."
+    },
+    "removeAll": {
+      "title": "¿Eliminar todas las comidas de {{mealType}}?",
+      "message": "Esto eliminará las {{count}} comidas. No podrás deshacerlo."
+    },
+    "unsavedChanges": {
+      "title": "Cambios sin guardar",
+      "message": "Tienes cambios sin guardar. ¿Quieres guardar antes de salir?"
+    }
+  },
+  "empty": {
+    "noMeals": "Aún no hay comidas",
+    "createFirst": "Crea tu primer plan de comidas para comenzar"
+  },
+"grocery": {
+    "title": "Lista de Compras",
+    "total": "Total",
+    "products": "productos",
+    "unit": "unidad",
+    "perUnit": "/unidad",
+    "averageIn": "promedio en {{country}}",
+    "totalCost": "Total: {{amount}}",
+    "itemCount": "{{count}} artículo",
+    "itemCount_plural": "{{count}} artículos",
+    "priceDisclaimer": "Los precios de la lista de compras son aproximados y dependen de la tienda exacta.",
+    "generatingList": "Generando tu lista de compras personalizada...",
+    "groceriesTab": "Compras",
+    "leftoversTab": "Sobras",
+    "leftoversCount": "Sobras ({{count}})",
+    "uncategorized": "Sin categoría",
+    "categories": {
+      "produce": "Frutas y verduras",
+      "dairy": "Lácteos, alternativas y huevos",
+      "meat": "Carnes y mariscos",
+      "grains": "Cereales y pastas",
+      "pantry": "Despensa",
+      "frozen": "Congelados",
+      "bakery": "Panadería",
+      "beverages": "Bebidas",
+      "condiments": "Condimentos",
+      "refrigerated": "Refrigerados",
+      "other": "Otros"
+    },
+    "haveIt": "Ya lo tengo",
+    "dontHaveIt": "No lo tengo",
+    "notAvailable": "No disponible",
+    "unknownProduct": "Producto desconocido",
+    "unknownPackage": "Paquete desconocido",
+    "productNotAvailable": "Producto no disponible",
+    "noPriceAvailable": "Precio no disponible",
+    "package": "Paquete",
+    "perishable": "Perecedero",
+    "ofPackage": "del paquete",
+    "pieceIs": "~1 pieza es",
+    "piecesIs": "~{{count}} piezas es",
+    "addToCart": "Añadir al carrito",
+    "leftovers": "Sobras",
+    "leftoverItems": "Artículos sobrantes",
+    "processingGroceryList": "Procesando lista de compras...",
+    "leftoverAmount": "{{amount}} sobrante",
+    "packageTypes": {
+      "pieza": "Pieza",
+      "bote": "Bote",
+      "bandeja": "Bandeja",
+      "paquete": "Paquete",
+      "tarro": "Tarro",
+      "tarrina": "Tarrina",
+      "granel": "Granel",
+      "brick": "Brick",
+      "botella": "Botella",
+      "lata": "Lata",
+      "bolsa": "Bolsa",
+      "pack": "Pack",
+      "unidad": "Unidad",
+      "docena": "Docena",
+      "manojo": "Manojo",
+      "racimo": "Racimo",
+      "ristra": "Ristra",
+      "saco": "Saco",
+      "caja": "Caja",
+      "sobre": "Sobre",
+      "tubo": "Tubo"
+    }
+  },
+  "loading": {
+    "title": "Cargando...",
+    "preparing": "Preparando tu deliciosa comida...",
+    "preparingVisualization": "Preparando visualización...",
+    "generatingImage": "Generando imagen...",
+    "preparingDetails": "Preparando detalles de la receta...",
+    "imageNotAvailable": "Imagen no disponible",
+    "loadingInstructions": "Cargando instrucciones...",
+    "processing": "Procesando...",
+    "updating": "Actualizando...",
+    "almostDone": "Ya casi terminamos, por favor espera.",
+    "finalizing": "Finalizando tu plan de comidas...",
+    "creating9Meals": "Creando 9 comidas para hasta 5 días"
+  },
+  "progressMessages": {
+    "eat9Meals": "¡Come tus 9 comidas cuando quieras!",
+    "generateMore": "Cuando se acaben, genera más comidas",
+    "preserved5Days": "Algunas comidas se pueden conservar por 5 días",
+    "stayFlexible": "Mantente flexible, come a tu ritmo"
+  },
+  "recipeCard": {
+    "maxStorage": "Almacenamiento máx: {{time}}",
+    "iDontLikeIt": "No me gusta",
+    "details": "Detalles",
+    "cookingInstructions": "Instrucciones de cocina",
+    "startCooking": "Empezar a cocinar",
+    "completeCooking": "Terminar cocina",
+    "finalizingRecipe": "Finalizando receta",
+    "almostReady": "¡Casi listo!",
+    "freshFor": "Fresco por {{days}} días",
+    "min": "{{time}} min"
+  },
+  "mealCount": "{{count}} comidas",
+  "mealCount_one": "{{count}} comida",
+  "forTwoDays": "para 2 días",
+  "status": {
+    "updating": "Actualizando..."
+  },
+  "freshUpDrawer": {
+    "title": "Mantente flexible",
+    "mainDescription": "Obtienes un conjunto de comidas flexible, no un plan rígido. Cada comida usa ingredientes que pueden mantenerse frescos por 3, 4 o incluso 5 días. Así que puedes saltarte un día si quieres.",
+    "freshnessExplanation": "Algunas comidas están diseñadas para durar varios días. Puedes cocinar una vez y comer después — tú decides.",
+    "benefits": {
+      "cookWhenYouWant": "Cocina cuando quieras.",
+      "skipMeals": "Salta comidas si cambian tus planes.",
+      "nothingBreaks": "Nada se rompe si comes fuera o te saltas un día."
+    },
+    "targetAudience": "9meals es para personas que cocinan en casa pero no quieren pensar en comida todos los días.",
+    "tagline": "Si disfrutas cocinar pero odias planificar — esto es para ti.",
+    "gotIt": "Entendido"
+  }
+}

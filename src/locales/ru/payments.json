@@ -1,0 +1,39 @@
+{
+  "title": "Платежи",
+  "createNew": "Новый платёж",
+  "myPayments": "Мои платежи",
+  "allPayments": "Все платежи",
+  "noPayments": "Платежей пока нет",
+  "totalDue": "Сумма к оплате",
+  "selectFlat": "Выберите квартиру",
+  "fields": {
+    "description": "Описание",
+    "amount": "Сумма",
+    "dueDate": "Срок оплаты",
+    "flat": "Квартира",
+    "allFlats": "Для всех квартир",
+    "invoiceUrl": "Ссылка на квитанцию"
+  },
+  "placeholders": {
+    "description": "напр., Коммунальные за январь",
+    "invoiceUrl": "https://..."
+  },
+  "status": {
+    "all": "Все",
+    "pending": "К оплате",
+    "paid": "Оплачено",
+    "overdue": "Просрочено"
+  },
+  "markPaid": "Оплачено",
+  "paidAt": "Оплачено",
+  "dueDate": "Срок",
+  "flat": "Кв. {{number}}",
+  "amount": "{{amount}} {{currency}}",
+  "total": "Всего к оплате",
+  "overdueSummary": "Просрочено: {{count}} платежей",
+  "uploadInvoice": "Загрузить квитанцию",
+  "invoiceRequired": "Пожалуйста, предоставьте ссылку на квитанцию или чек для подтверждения оплаты.",
+  "invoiceUrlHint": "Ссылка на подтверждение банковского перевода, фото чека или скриншот оплаты",
+  "confirmPayment": "Подтвердить оплату",
+  "viewInvoice": "Посмотреть квитанцию"
+}

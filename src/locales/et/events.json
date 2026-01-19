@@ -1,0 +1,33 @@
+{
+  "title": "Sündmused",
+  "createNew": "Uus sündmus",
+  "upcoming": "Tulevased",
+  "all": "Kõik sündmused",
+  "past": "Möödunud",
+  "noEvents": "Sündmusi pole veel",
+  "fields": {
+    "title": "Nimi",
+    "description": "Kirjeldus",
+    "date": "Kuupäev",
+    "time": "Aeg",
+    "endDate": "Lõpukuupäev",
+    "location": "Koht",
+    "sendEmail": "Saada teavitus",
+    "sendEmailDesc": "Teavita elanikke e-postiga"
+  },
+  "placeholders": {
+    "title": "Sündmuse nimi",
+    "description": "Üksikasjad...",
+    "location": "nt Ühisruum"
+  },
+  "attend": "Osalen",
+  "notAttend": "Ei osale",
+  "attending": "Osalen",
+  "notAttending": "Ei osale",
+  "attendees": "Osalejad",
+  "attendeesCount": "{{count}} osalejat",
+  "noAttendees": "Keegi pole veel registreerunud",
+  "location": "Koht: {{location}}",
+  "date": "{{date}}",
+  "createdBy": "Korraldaja: {{name}}"
+}

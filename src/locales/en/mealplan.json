@@ -1,0 +1,212 @@
+{
+  "pickMealToCook": "Pick a Meal to Cook",
+  "reviewMeals": "Review Meals",
+  "myPreferences": "My Preferences",
+  "title": "Your Meal Plan",
+  "subtitle": "{{count}} meals for the week",
+  "generation": {
+    "title": "Creating your meal plan",
+    "subtitle": "This usually takes about 30 seconds",
+    "steps": {
+      "analyzing": "Analyzing your preferences...",
+      "generating": "Generating personalized recipes...",
+      "matching": "Finding the best products...",
+      "calculating": "Calculating your grocery list...",
+      "finalizing": "Finalizing your meal plan..."
+    }
+  },
+  "rotatingDescriptions": [
+    "Don't like a meal? Just replace it.",
+    "Not a breakfast person? Remove it entirely.",
+    "Don't like these meals? Create a new one.",
+    "Tap any meal to see the full recipe and details.",
+    "Remember to review your grocery list."
+  ],
+  "tips": {
+    "buyGroceries": "Buy groceries before cooking.",
+    "storeProper": "Store properly to keep ingredients fresh.",
+    "startCooking": "Tap Start Cooking when you cook.",
+    "mealPlanned": "Each meal is planned for optimal freshness.",
+    "markComplete": "When done cooking, mark it as complete.",
+    "freshUpTo": "Fresh up to {{days}} days"
+  },
+  "tries": {
+    "remaining": "{{count}} try left",
+    "remaining_plural": "{{count}} tries left",
+    "unlimited": "Unlimited meal plans",
+    "noTries": "No tries remaining",
+    "weeklyReset": "Tries reset weekly"
+  },
+  "mealTypes": {
+    "breakfast": "Breakfast",
+    "lunch": "Lunch",
+    "dinner": "Dinner",
+    "snack": "Snack"
+  },
+  "days": {
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday",
+    "today": "Today",
+    "tomorrow": "Tomorrow"
+  },
+  "actions": {
+    "save": "Save Meal Plan",
+    "saving": "Saving...",
+    "saved": "Saved!",
+    "startOver": "Create Meals",
+    "regenerate": "Create New Meals Set",
+    "replace": "Replace",
+    "remove": "Remove",
+    "removeAll": "Remove All",
+    "viewRecipe": "View Recipe",
+    "viewGroceryList": "View Grocery List",
+    "viewGroceriesList": "View Groceries List",
+    "buyGroceries": "Buy Groceries",
+    "startCooking": "Start Cooking",
+    "markCooked": "Mark as Cooked"
+  },
+  "confirmations": {
+    "removeRecipe": {
+      "title": "Remove this recipe?",
+      "message": "You can always add it back later."
+    },
+    "removeAll": {
+      "title": "Remove all {{mealType}} meals?",
+      "message": "This will remove all {{count}} meals. You won't be able to undo it."
+    },
+    "unsavedChanges": {
+      "title": "Unsaved changes",
+      "message": "You have unsaved changes. Do you want to save before leaving?"
+    }
+  },
+  "empty": {
+    "noMeals": "No meals yet",
+    "createFirst": "Create your first meal plan to get started"
+  },
+  "grocery": {
+    "title": "Grocery List",
+    "total": "Total",
+    "products": "products",
+    "unit": "unit",
+    "perUnit": "/unit",
+    "averageIn": "average in {{country}}",
+    "totalCost": "Total: {{amount}}",
+    "itemCount": "{{count}} item",
+    "itemCount_plural": "{{count}} items",
+    "priceDisclaimer": "The prices of the groceries list are approximate and depend on exact grocery store.",
+    "generatingList": "Generating your personalized grocery list...",
+    "groceriesTab": "Groceries",
+    "leftoversTab": "Leftovers",
+    "leftoversCount": "Leftovers ({{count}})",
+    "uncategorized": "Uncategorized",
+    "categories": {
+      "produce": "Produce",
+      "dairy": "Dairy, Alternatives & Eggs",
+      "meat": "Meat & Seafood",
+      "grains": "Grains & Pasta",
+      "pantry": "Pantry",
+      "frozen": "Frozen",
+      "bakery": "Bakery",
+      "beverages": "Beverages",
+      "condiments": "Condiments",
+      "refrigerated": "Refrigerated",
+      "other": "Other"
+    },
+    "haveIt": "I have it",
+    "dontHaveIt": "I don't have it",
+    "notAvailable": "Not available",
+    "unknownProduct": "Unknown Product",
+    "unknownPackage": "Unknown Package",
+    "productNotAvailable": "Product not available",
+    "noPriceAvailable": "No price available",
+    "package": "Package",
+    "perishable": "Perishable",
+    "ofPackage": "of package",
+    "pieceIs": "~1 piece is",
+    "piecesIs": "~{{count}} pieces is",
+    "addToCart": "Add to Cart",
+    "leftovers": "Leftovers",
+    "leftoverItems": "Leftover Items",
+    "processingGroceryList": "Processing grocery list...",
+    "leftoverAmount": "{{amount}} left over",
+    "packageTypes": {
+      "pieza": "Piece",
+      "bote": "Jar",
+      "bandeja": "Tray",
+      "paquete": "Package",
+      "tarro": "Jar",
+      "tarrina": "Tub",
+      "granel": "Bulk",
+      "brick": "Carton",
+      "botella": "Bottle",
+      "lata": "Can",
+      "bolsa": "Bag",
+      "pack": "Pack",
+      "unidad": "Unit",
+      "docena": "Dozen",
+      "manojo": "Bunch",
+      "racimo": "Bunch",
+      "ristra": "String",
+      "saco": "Sack",
+      "caja": "Box",
+      "sobre": "Sachet",
+      "tubo": "Tube"
+    }
+  },
+  "loading": {
+    "title": "Loading...",
+    "preparing": "Preparing your delicious meal...",
+    "preparingVisualization": "Preparing visualization...",
+    "generatingImage": "Generating image...",
+    "preparingDetails": "Preparing recipe details...",
+    "imageNotAvailable": "Image not available",
+    "loadingInstructions": "Loading instructions...",
+    "processing": "Processing...",
+    "updating": "Updating...",
+    "almostDone": "We are almost done, please wait.",
+    "finalizing": "Finalizing your meal plan...",
+    "creating9Meals": "Creating 9 Meals for up to 5 days"
+  },
+  "progressMessages": {
+    "eat9Meals": "Eat your 9 meals any time you want!",
+    "generateMore": "When they are over, generate more meals",
+    "preserved5Days": "Some meals can be preserved for 5 days",
+    "stayFlexible": "Stay flexible, eat on your schedule"
+  },
+  "recipeCard": {
+    "maxStorage": "Max storage: {{time}}",
+    "iDontLikeIt": "Replace Meal",
+    "details": "Details",
+    "cookingInstructions": "Cooking Instructions",
+    "startCooking": "Start Cooking",
+    "completeCooking": "Complete Cooking",
+    "finalizingRecipe": "Finalizing Recipe",
+    "almostReady": "Almost Ready!",
+    "freshFor": "Fresh for {{days}} days",
+    "min": "{{time}} min"
+  },
+  "mealCount": "{{count}} meals",
+  "mealCount_one": "{{count}} meal",
+  "forTwoDays": "for 2 days",
+  "status": {
+    "updating": "Updating..."
+  },
+  "freshUpDrawer": {
+    "title": "Stay flexible",
+    "mainDescription": "You get a flexible meal set, not a rigid plan.",
+    "freshnessExplanation": "Each meal uses ingredients that can stay fresh for 3, 4, or even 5 days. So you can skip a day if you want.",
+    "benefits": {
+      "cookWhenYouWant": "Cook when you want.",
+      "skipMeals": "Skip meals if plans change.",
+      "nothingBreaks": "Nothing breaks if you eat out or miss a day."
+    },
+    "targetAudience": "9meals is for people who cook at home but don't want to think about food every day.",
+    "tagline": "If you enjoy cooking but hate planning — this is for you.",
+    "gotIt": "Got it"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Events",
+  "createNew": "New Event",
+  "upcoming": "Upcoming",
+  "all": "All Events",
+  "past": "Past",
+  "noEvents": "No events yet",
+  "fields": {
+    "title": "Title",
+    "description": "Description",
+    "date": "Date",
+    "time": "Time",
+    "endDate": "End Date",
+    "location": "Location",
+    "sendEmail": "Send Notification",
+    "sendEmailDesc": "Notify residents by email"
+  },
+  "placeholders": {
+    "title": "Event name",
+    "description": "Event details...",
+    "location": "e.g., Community Hall"
+  },
+  "attend": "Attend",
+  "notAttend": "Not Attending",
+  "attending": "Attending",
+  "notAttending": "Not attending",
+  "attendees": "Attendees",
+  "attendeesCount": "{{count}} attendees",
+  "noAttendees": "No one has signed up yet",
+  "location": "Location: {{location}}",
+  "date": "{{date}}",
+  "createdBy": "Organizer: {{name}}"
+}

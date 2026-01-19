@@ -1,0 +1,31 @@
+{
+  "title": "Documents",
+  "upload": "Upload Document",
+  "noDocuments": "No documents yet",
+  "fields": {
+    "title": "Title",
+    "description": "Description",
+    "category": "Category",
+    "file": "File",
+    "fileUrl": "File URL",
+    "selectFile": "Select file"
+  },
+  "placeholders": {
+    "title": "Document name",
+    "description": "Brief description..."
+  },
+  "category": {
+    "all": "All",
+    "rules": "Rules",
+    "minutes": "Meeting Minutes",
+    "contracts": "Contracts",
+    "other": "Other"
+  },
+  "fileUrlHint": "Enter a link to the document (Google Drive, Dropbox, etc.)",
+  "uploadedBy": "Uploaded by {{name}}",
+  "uploadedAt": "{{date}}",
+  "download": "Download",
+  "delete": "Delete",
+  "deleteConfirm": "Delete document \"{{title}}\"?",
+  "fileSize": "Size: {{size}}"
+}

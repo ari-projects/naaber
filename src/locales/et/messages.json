@@ -1,0 +1,19 @@
+{
+  "title": "Sõnumid",
+  "conversations": "Vestlused",
+  "noConversations": "Vestlusi pole veel",
+  "newMessage": "Uus sõnum",
+  "selectFlat": "Valige korter sõnumi saatmiseks",
+  "placeholder": "Sisestage sõnum...",
+  "send": "Saada",
+  "noMessages": "Pole sõnumeid",
+  "noMessagesYet": "Sõnumeid pole veel",
+  "startConversation": "Alustage vestlust!",
+  "startNew": "Alusta vestlust",
+  "unread": "Lugemata: {{count}}",
+  "you": "Teie",
+  "flat": "Korter {{number}}",
+  "loadMore": "Laadi veel",
+  "noOtherFlats": "Teie kogukonnas pole teisi kortereid",
+  "noFlatAssigned": "Sõnumite saatmiseks peate olema korterile määratud"
+}

@@ -1,0 +1,19 @@
+{
+  "title": "Messages",
+  "conversations": "Conversations",
+  "noConversations": "No conversations yet",
+  "newMessage": "New Message",
+  "selectFlat": "Select a flat to message",
+  "placeholder": "Type a message...",
+  "send": "Send",
+  "noMessages": "No messages",
+  "noMessagesYet": "No messages yet",
+  "startConversation": "Start the conversation!",
+  "startNew": "Start a conversation",
+  "unread": "Unread: {{count}}",
+  "you": "You",
+  "flat": "Flat {{number}}",
+  "loadMore": "Load More",
+  "noOtherFlats": "No other flats in your community",
+  "noFlatAssigned": "You need to be assigned to a flat to send messages"
+}

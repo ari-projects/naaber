@@ -1,0 +1,43 @@
+{
+  "title": "Объявления",
+  "create": "Создать объявление",
+  "edit": "Редактировать",
+  "delete": "Удалить",
+  "deleteConfirm": "Удалить это объявление?",
+  "noAnnouncements": "Нет объявлений",
+  "form": {
+    "title": "Заголовок",
+    "content": "Содержание",
+    "type": "Тип",
+    "sendEmail": "Отправить по email",
+    "sendEmailDesc": "Уведомить всех жильцов по email"
+  },
+  "types": {
+    "news": "Новость",
+    "update": "Обновление",
+    "vote": "Голосование"
+  },
+  "vote": {
+    "title": "Голосование",
+    "options": "Варианты ответа",
+    "addOption": "Добавить вариант",
+    "deadline": "Срок голосования",
+    "deadlineHelp": "До какой даты можно голосовать",
+    "results": "Результаты",
+    "totalVotes": "Всего голосов: {{count}}",
+    "yourVote": "Ваш голос",
+    "voteButton": "Голосовать",
+    "alreadyVoted": "Вы уже проголосовали",
+    "votingEnded": "Голосование завершено",
+    "votingEndsIn": "Голосование до {{date}}"
+  },
+  "comments": {
+    "title": "Комментарии",
+    "noComments": "Нет комментариев",
+    "addComment": "Написать комментарий",
+    "placeholder": "Ваш комментарий...",
+    "send": "Отправить"
+  },
+  "postedBy": "Опубликовал {{name}}",
+  "postedAt": "{{date}}"
+}

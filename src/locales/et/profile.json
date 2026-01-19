@@ -1,0 +1,28 @@
+{
+  "title": "Profiil",
+  "personalInfo": "Isikuandmed",
+  "editProfile": "Muuda profiili",
+  "changePassword": "Muuda parooli",
+  "name": "Eesnimi",
+  "surname": "Perekonnanimi",
+  "email": "E-post",
+  "phone": "Telefon",
+  "language": "Keel",
+  "flat": "Korter",
+  "community": "Ühistu",
+  "role": "Roll",
+  "roles": {
+    "president": "Esimees",
+    "member": "Elanik"
+  },
+  "memberSince": "Liige alates {{date}}",
+  "password": {
+    "current": "Praegune parool",
+    "new": "Uus parool",
+    "confirm": "Kinnita parool",
+    "changed": "Parool edukalt muudetud"
+  },
+  "saved": "Muudatused salvestatud",
+  "logout": "Logi välja",
+  "logoutConfirm": "Kas olete kindel, et soovite välja logida?"
+}

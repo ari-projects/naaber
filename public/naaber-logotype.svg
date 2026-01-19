@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 40" fill="none">
+  <!-- Buildings icon -->
+  <g transform="translate(0, 2)">
+    <!-- Left building (orange) -->
+    <rect x="2" y="12" width="8" height="24" fill="#C4956A"/>
+    <rect x="4" y="14" width="2" height="3" fill="#FFF"/>
+    <rect x="4" y="19" width="2" height="3" fill="#FFF"/>
+    <rect x="4" y="24" width="2" height="3" fill="#FFF"/>
+    <rect x="4" y="29" width="2" height="3" fill="#FFF"/>
+    
+    <!-- Middle building (dark) -->
+    <rect x="12" y="6" width="10" height="30" fill="#3D3D3D"/>
+    <rect x="14" y="8" width="2" height="3" fill="#FFF"/>
+    <rect x="18" y="8" width="2" height="3" fill="#FFF"/>
+    <rect x="14" y="13" width="2" height="3" fill="#FFF"/>
+    <rect x="18" y="13" width="2" height="3" fill="#FFF"/>
+    <rect x="14" y="18" width="2" height="3" fill="#FFF"/>
+    <rect x="18" y="18" width="2" height="3" fill="#FFF"/>
+    <rect x="14" y="23" width="2" height="3" fill="#FFF"/>
+    <rect x="18" y="23" width="2" height="3" fill="#FFF"/>
+    <rect x="14" y="28" width="2" height="3" fill="#FFF"/>
+    <rect x="18" y="28" width="2" height="3" fill="#FFF"/>
+    
+    <!-- Right building (brown) -->
+    <rect x="24" y="10" width="9" height="26" fill="#8B6914"/>
+    <rect x="26" y="12" width="2" height="3" fill="#FFF"/>
+    <rect x="29" y="12" width="2" height="3" fill="#FFF"/>
+    <rect x="26" y="17" width="2" height="3" fill="#FFF"/>
+    <rect x="29" y="17" width="2" height="3" fill="#FFF"/>
+    <rect x="26" y="22" width="2" height="3" fill="#FFF"/>
+    <rect x="29" y="22" width="2" height="3" fill="#FFF"/>
+    <rect x="26" y="27" width="2" height="3" fill="#FFF"/>
+    <rect x="29" y="27" width="2" height="3" fill="#FFF"/>
+    
+    <!-- Curved roof line -->
+    <path d="M0 12 Q17 0 35 12" stroke="#3D3D3D" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Text "naaber" -->
+  <text x="45" y="28" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1A1A1A">naaber</text>
+  
+  <!-- Text ".ee" -->
+  <text x="138" y="28" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#C4B89B">.ee</text>
+</svg>

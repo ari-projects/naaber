@@ -1,0 +1,108 @@
+{
+  "landing": {
+    "hero": {
+      "title": "Mantente conectado con tus vecinos.",
+      "tagline": "Actualizaciones de tu edificio en un solo lugar.",
+      "description": "Naaber ayuda a las personas que viven en la misma casa o edificio a compartir <bold>anuncios</bold>, <bold>eventos</bold> y <bold>noticias locales</bold> para que todos estén informados.",
+      "imageAlt": "Vecinos hablando en el patio",
+      "cta": "Ver qué está pasando en mi edificio"
+    },
+    "highlights": [
+      "Recibe anuncios de tu presidente de la comunidad.",
+      "Ve los próximos eventos en tu edificio.",
+      "Mantente al día con lo que pasa a tu alrededor."
+    ],
+    "sections": {
+      "announcements": {
+        "title": "Anuncios",
+        "description": "Actualizaciones importantes de tu presidente de la comunidad y la junta del edificio."
+      },
+      "events": {
+        "title": "Eventos",
+        "description": "Desde encuentros informales hasta reuniones oficiales, ve lo que está planeado en tu edificio."
+      },
+      "news": {
+        "title": "Noticias del barrio",
+        "description": "Breves actualizaciones sobre lo que pasa en tu zona."
+      }
+    },
+    "howItWorks": {
+      "title": "Cómo funciona Naaber",
+      "step1":  {
+        "title": "Únete al espacio de tu edificio",
+        "description": "Crea una cuenta y elige el edificio o la casa donde vives."
+      },
+      "step2": {
+        "title": "Recibe todo en un solo lugar",
+        "description": "Ve anuncios, próximos eventos y noticias locales sin perderte en los chats de grupo."
+      },
+      "step3": {
+        "title": "Mantente en sintonía con tus vecinos",
+        "description": "Responde, reacciona y comparte tus propias actualizaciones para que todos estén al día."
+      }
+    }
+  },
+  "about": {
+    "title": "Sobre Nosotros",
+    "backButton": "Volver",
+    "missionAlt": "Nuestra Misión",
+    "teamAlt": "Nuestro Equipo",
+    "visionAlt": "Nuestra Visión",
+    "description": "Esta app la hicimos para nosotros y decidimos compartirla con todos."
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "intro": "¡Nos encantaría saber de ti! Ya sea que tengas una pregunta sobre nuestras funciones de planificación de comidas, necesites ayuda con tu cuenta o simplemente quieras compartir tus comentarios, nuestro equipo está aquí para ayudarte.",
+    "getInTouch": {
+      "title": "Ponte en Contacto",
+      "description": "La mejor manera de contactarnos es por correo electrónico. Normalmente respondemos dentro de 24-48 horas en días laborables."
+    },
+    "helpSections": {
+      "title": "¿Cómo Podemos Ayudarte?",
+      "account": {
+        "title": "Soporte de Cuenta y Técnico",
+        "description": "¿Tienes problemas para iniciar sesión, administrar tu cuenta o experimentas problemas técnicos? Estamos aquí para ayudarte a resolverlos."
+      },
+      "mealPlanning": {
+        "title": "Preguntas sobre Planificación de Comidas",
+        "description": "¿Necesitas orientación sobre cómo aprovechar al máximo tus planes de comidas? ¿Tienes preguntas sobre recetas, ingredientes o preferencias dietéticas? ¡Cuéntanos!"
+      },
+      "feedback": {
+        "title": "Comentarios y Sugerencias",
+        "description": "¡Siempre buscamos mejorar! Tus comentarios nos ayudan a hacer 9meals.ai mejor para todos. Comparte tus ideas, solicitudes de funciones o sugerencias."
+      },
+      "privacy": {
+        "title": "Inquietudes de Privacidad",
+        "description": "¿Tienes preguntas sobre tus datos o quieres ejercer tus derechos de privacidad bajo GDPR? Contáctanos y te ayudaremos rápidamente."
+      }
+    },
+    "beforeContact": {
+      "title": "Antes de Contactarnos",
+      "description": "Al comunicarte, incluye la mayor cantidad de detalles posible sobre tu pregunta o problema. Esto nos ayuda a darte la respuesta más precisa y útil."
+    },
+    "thankYou": "Gracias por usar 9meals.ai. ¡Apreciamos tu apoyo y esperamos ayudarte en tu viaje de planificación de comidas! 🍽️"
+  },
+  "notFound": {
+    "title": "404",
+    "headline": "¡Esta página fue devorada!",
+    "message": "¡Ups! La receta que buscas no existe o se ha movido a otra cocina.",
+    "backHome": "Volver al Inicio",
+    "goBack": "Volver Atrás",
+    "explore": "O explora estas páginas:",
+    "createMealPlan": "Crear Plan de Comidas"
+  },
+  "footer": {
+    "brand": {
+      "nine": "9",
+      "meals": "meals",
+      "ai": ".ai"
+    },
+    "tagline": "Planificación de comidas con IA para gente ocupada",
+    "learnMore": "Más Información",
+    "links": {
+      "privacyPolicy": "Política de Privacidad",
+      "cookiePolicy": "Política de Cookies",
+      "contactUs": "Contáctanos"
+    }
+  }
+}

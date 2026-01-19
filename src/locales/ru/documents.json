@@ -1,0 +1,31 @@
+{
+  "title": "Документы",
+  "upload": "Загрузить документ",
+  "noDocuments": "Документов пока нет",
+  "fields": {
+    "title": "Название",
+    "description": "Описание",
+    "category": "Категория",
+    "file": "Файл",
+    "fileUrl": "Ссылка на файл",
+    "selectFile": "Выберите файл"
+  },
+  "placeholders": {
+    "title": "Название документа",
+    "description": "Краткое описание..."
+  },
+  "category": {
+    "all": "Все",
+    "rules": "Правила",
+    "minutes": "Протоколы собраний",
+    "contracts": "Договоры",
+    "other": "Прочее"
+  },
+  "fileUrlHint": "Введите ссылку на документ (Google Drive, Dropbox и т.д.)",
+  "uploadedBy": "Загрузил {{name}}",
+  "uploadedAt": "{{date}}",
+  "download": "Скачать",
+  "delete": "Удалить",
+  "deleteConfirm": "Удалить документ «{{title}}»?",
+  "fileSize": "Размер: {{size}}"
+}

@@ -1,0 +1,8 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow: /mymeals
+Disallow: /myprofile
+Disallow: /reviewmeals
+
+# Sitemap
+Sitemap: https://9meals.ai/sitemap.xml

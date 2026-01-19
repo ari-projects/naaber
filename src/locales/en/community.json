@@ -1,0 +1,182 @@
+{
+  "title": "Communities",
+  "myCommunities": "My Communities",
+  "createCommunity": "Create Community",
+  "editCommunity": "Edit Community",
+  "communitySettings": "Community Settings",
+  "communityName": "Name",
+  "communityAddress": "Address",
+  "deleteConfirm": "Are you sure you want to delete this community? All data will be lost.",
+  "flats": {
+    "title": "Flats",
+    "subtitle": "Manage apartments in your building",
+    "addFlat": "Add Flat",
+    "addMultiple": "Add Multiple",
+    "flatNumber": "Flat Number",
+    "noFlats": "No flats added yet",
+    "noFlatsSubtitle": "Add your first apartment to get started",
+    "noFlatsWithRequests": "No flats with requests",
+    "noFlatsWithRequestsSubtitle": "All flats are up to date",
+    "deleteConfirm": "Delete flat {{number}}?",
+    "deleteWarning": "This action cannot be undone. All data associated with this flat will be deleted.",
+    "hasMembers": "Cannot delete flat with members",
+    "residents": "residents",
+    "residents_one": "resident",
+    "residents_other": "residents",
+    "viewDetails": "View Details",
+    "requests": "requests",
+    "noRequests": "No requests",
+    "requestsCount": "{{count}} request",
+    "requestsCount_one": "{{count}} request",
+    "requestsCount_other": "{{count}} requests",
+    "totalFlats": "Total Flats",
+    "searchPlaceholder": "Search flats...",
+    "tabs": {
+      "all": "All",
+      "withRequests": "With requests"
+    },
+    "drawer": {
+      "title": "Add Flats",
+      "subtitle": "Add apartments to your building",
+      "singleTab": "Single Flat",
+      "manyTab": "Many Flats",
+      "prefixPlaceholder": "Prefix (e.g., A, B, 1-)"
+    },
+    "searchDrawer": {
+      "title": "Search Flats",
+      "subtitle": "Find apartments by number or resident",
+      "noResults": "No flats found",
+      "tryDifferentSearch": "Try a different search term"
+    },
+    "deleteDrawer": {
+      "title": "Delete Flat",
+      "subtitle": "Are you sure you want to delete flat {{number}}?",
+      "warning": "This action cannot be undone"
+    },
+    "notifications": {
+      "messages": "messages",
+      "payments": "payments",
+      "documents": "documents",
+      "maintenance": "maintenance"
+    },
+    "details": {
+      "title": "Flat {{number}}",
+      "overview": "Overview",
+      "residents": "Residents",
+      "messages": "Messages",
+      "payments": "Payments",
+      "documents": "Documents",
+      "maintenance": "Maintenance",
+      "flatInfo": "Flat Information",
+      "recentActivity": "Recent Activity",
+      "noActivity": "No recent activity",
+      "noResidents": "No residents in this flat",
+      "noMessages": "No messages",
+      "noPayments": "No payments",
+      "noDocuments": "No documents",
+      "noMaintenance": "No maintenance requests",
+      "unreadMessages": "{{count}} unread messages",
+      "pendingPayments": "{{count}} pending payments",
+      "openMaintenance": "{{count}} open maintenance requests",
+      "unknownSender": "Unknown"
+    },
+    "bulkAdd": {
+      "title": "Bulk Add Flats",
+      "from": "From",
+      "to": "To",
+      "prefix": "Prefix (optional)",
+      "example": "Example: 1-50 creates flats 1, 2, 3... 50"
+    }
+  },
+  "members": {
+    "title": "Members",
+    "allMembers": "All Members",
+    "pendingMembers": "Pending Approvals",
+    "noMembers": "No members",
+    "noMembersSubtitle": "Invite members to your community",
+    "noPending": "No pending approvals",
+    "noPendingSubtitle": "All applications have been processed",
+    "approve": "Approve",
+    "reject": "Reject",
+    "remove": "Remove Member",
+    "removeConfirm": "Remove {{name}} from community?",
+    "approveConfirm": "Approve {{name}}'s application?",
+    "rejectConfirm": "Reject {{name}}'s application?",
+    "memberSince": "Member since {{date}}",
+    "requestedAt": "Requested on {{date}}",
+    "tabs": {
+      "all": "All",
+      "pending": "Pending"
+    },
+    "search": "Search members",
+    "searchPlaceholder": "Name, email or flat",
+    "inviteMembers": "Invite members",
+    "inviteDescription": "Share this link with residents to register in your community",
+    "inviteLink": "Invite link",
+    "copyLink": "Copy link",
+    "inviteByEmail": "Invite by email",
+    "printQRCode": "Print QR code",
+    "shareLinkDescription": "Share this link with residents for registration",
+    "emailInviteDescription": "Enter emails separated by commas",
+    "invite": "Invite",
+    "deleteConfirmTitle": "Delete this member?",
+    "emptyState": {
+      "description": "Invite members to register so they can submit requests and communicate with you."
+    },
+    "qrPrint": {
+      "defaultCommunityName": "Our Community",
+      "title": "Dear Residents!",
+      "description1": "Our community now uses the Naaber app for communication, submitting requests, and receiving important notifications.",
+      "description2": "Register to stay informed about all events and be able to contact management.",
+      "featuresTitle": "App features:",
+      "features": {
+        "announcements": "📢 Announcements",
+        "requests": "📝 Requests",
+        "voting": "🗳️ Voting",
+        "communication": "💬 Communication"
+      },
+      "scanInstruction": "Point your phone camera at the QR code to register:",
+      "footer": "Naaber App — modern home management"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "general": "General",
+    "notifications": "Notifications",
+    "emailNotifications": "Email Notifications",
+    "emailNotificationsDesc": "Send emails for new announcements and events"
+  },
+  "inviteLink": {
+    "title": "Invite Link",
+    "description": "Share this link with residents to register",
+    "copy": "Copy",
+    "copied": "Copied!"
+  },
+  "announcements": {
+    "title": "Announcements",
+    "create": "Create Announcement",
+    "noAnnouncements": "No announcements yet",
+    "type": "Type",
+    "types": {
+      "news": "News",
+      "update": "Update",
+      "vote": "Vote"
+    },
+    "titleLabel": "Title",
+    "titlePlaceholder": "Enter title...",
+    "contentLabel": "Content",
+    "contentPlaceholder": "Enter announcement text...",
+    "voteOptions": "Vote Options",
+    "option": "Option",
+    "addOption": "Add Option",
+    "minVoteOptions": "Voting requires at least 2 options",
+    "deadline": "Vote Deadline",
+    "sendEmail": "Send email notification to all residents",
+    "publish": "Publish",
+    "deleteConfirm": "Delete announcement \"{{title}}\"?",
+    "comments": "comments",
+    "noComments": "No comments yet",
+    "addComment": "Write a comment...",
+    "voteResults": "Vote Results"
+  }
+}

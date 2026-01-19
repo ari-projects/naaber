@@ -1,0 +1,157 @@
+{
+  "title": "Ühistud",
+  "myCommunities": "Minu ühistud",
+  "createCommunity": "Loo ühistu",
+  "editCommunity": "Muuda ühistut",
+  "communitySettings": "Ühistu seaded",
+  "communityName": "Nimi",
+  "communityAddress": "Aadress",
+  "deleteConfirm": "Kas olete kindel, et soovite selle ühistu kustutada? Kõik andmed kaovad.",
+  "flats": {
+    "title": "Korterid",
+    "subtitle": "Halda oma maja kortereid",
+    "addFlat": "Lisa korter",
+    "addMultiple": "Lisa mitu",
+    "flatNumber": "Korteri number",
+    "noFlats": "Kortereid pole lisatud",
+    "noFlatsSubtitle": "Lisa oma esimene korter alustamiseks",
+    "noFlatsWithRequests": "Päringutega kortereid pole",
+    "noFlatsWithRequestsSubtitle": "Kõik korterid on korras",
+    "deleteConfirm": "Kustuta korter {{number}}?",
+    "deleteWarning": "Seda tegevust ei saa tagasi võtta. Kõik selle korteri andmed kustutatakse.",
+    "hasMembers": "Ei saa kustutada korterit, kus on elanikud",
+    "residents": "elanikku",
+    "residents_one": "elanik",
+    "residents_other": "elanikku",
+    "viewDetails": "Vaata detaile",
+    "requests": "päringut",
+    "noRequests": "Päringuid pole",
+    "requestsCount_one": "{{count}} päring",
+    "requestsCount_other": "{{count}} päringut",
+    "totalFlats": "Kortereid kokku",
+    "searchPlaceholder": "Otsi kortereid...",
+    "tabs": {
+      "all": "Kõik",
+      "withRequests": "Päringutega"
+    },
+    "drawer": {
+      "title": "Lisa kortereid",
+      "subtitle": "Lisa kortereid oma majja",
+      "singleTab": "Üks korter",
+      "manyTab": "Mitu korterit",
+      "prefixPlaceholder": "Eesliide (nt A, B, 1-)"
+    },
+    "searchDrawer": {
+      "title": "Otsi kortereid",
+      "subtitle": "Leia kortereid numbri või elaniku järgi",
+      "noResults": "Kortereid ei leitud",
+      "tryDifferentSearch": "Proovi teistsugust otsingut"
+    },
+    "deleteDrawer": {
+      "title": "Kustuta korter",
+      "subtitle": "Kas olete kindel, et soovite kustutada korteri {{number}}?",
+      "warning": "Seda tegevust ei saa tagasi võtta"
+    },
+    "notifications": {
+      "messages": "sõnumit",
+      "payments": "makset",
+      "documents": "dokumenti",
+      "maintenance": "hooldust"
+    },
+    "details": {
+      "title": "Korter {{number}}",
+      "overview": "Ülevaade",
+      "residents": "Elanikud",
+      "messages": "Sõnumid",
+      "payments": "Maksed",
+      "documents": "Dokumendid",
+      "maintenance": "Hooldus",
+      "flatInfo": "Korteri info",
+      "recentActivity": "Viimane tegevus",
+      "noActivity": "Pole hiljutist tegevust",
+      "noResidents": "Selles korteris pole elanikke",
+      "noMessages": "Sõnumeid pole",
+      "noPayments": "Makseid pole",
+      "noDocuments": "Dokumente pole",
+      "noMaintenance": "Hooldustaotlusi pole",
+      "unreadMessages": "{{count}} lugemata sõnumit",
+      "pendingPayments": "{{count}} ootel makset",
+      "openMaintenance": "{{count}} avatud hooldustaotlust",
+      "unknownSender": "Tundmatu"
+    },
+    "bulkAdd": {
+      "title": "Korterite hulgilisamine",
+      "from": "Alates",
+      "to": "Kuni",
+      "prefix": "Eesliide (valikuline)",
+      "example": "Näiteks: 1-50 loob korterid 1, 2, 3... 50"
+    }
+  },
+  "members": {
+    "title": "Elanikud",
+    "allMembers": "Kõik elanikud",
+    "pendingMembers": "Ootab kinnitust",
+    "noMembers": "Pole elanikke",
+    "noMembersSubtitle": "Kutsuge elanikke oma ühistusse",
+    "noPending": "Pole ootel taotlusi",
+    "noPendingSubtitle": "Kõik taotlused on töödeldud",
+    "approve": "Kinnita",
+    "reject": "Lükka tagasi",
+    "remove": "Eemalda elanik",
+    "removeConfirm": "Eemalda {{name}} ühistust?",
+    "approveConfirm": "Kinnita {{name}} taotlus?",
+    "rejectConfirm": "Lükka tagasi {{name}} taotlus?",
+    "memberSince": "Liige alates {{date}}",
+    "requestedAt": "Taotlus alates {{date}}",
+    "tabs": {
+      "all": "Kõik",
+      "pending": "Ootel"
+    },
+    "search": "Otsi elanikke",
+    "searchPlaceholder": "Nimi, e-post või korter",
+    "inviteMembers": "Kutsu elanikke",
+    "inviteDescription": "Jagage seda linki elanikega registreerimiseks teie ühistusse",
+    "inviteLink": "Kutse link",
+    "copyLink": "Kopeeri link"
+  },
+  "settings": {
+    "title": "Seaded",
+    "general": "Üldine",
+    "notifications": "Teavitused",
+    "emailNotifications": "E-posti teavitused",
+    "emailNotificationsDesc": "Saada e-post uute teadete ja sündmuste kohta"
+  },
+  "inviteLink": {
+    "title": "Kutse link",
+    "description": "Jagage seda linki elanikega registreerimiseks",
+    "copy": "Kopeeri",
+    "copied": "Kopeeritud!"
+  },
+  "announcements": {
+    "title": "Teated",
+    "create": "Loo teade",
+    "noAnnouncements": "Teateid pole veel",
+    "type": "Tüüp",
+    "types": {
+      "news": "Uudis",
+      "update": "Uuendus",
+      "vote": "Hääletus"
+    },
+    "titleLabel": "Pealkiri",
+    "titlePlaceholder": "Sisesta pealkiri...",
+    "contentLabel": "Sisu",
+    "contentPlaceholder": "Sisesta teate tekst...",
+    "voteOptions": "Vastusevariandid",
+    "option": "Variant",
+    "addOption": "Lisa variant",
+    "minVoteOptions": "Hääletuseks on vaja vähemalt 2 varianti",
+    "deadline": "Hääletuse tähtaeg",
+    "sendEmail": "Saada e-posti teavitus kõigile elanikele",
+    "publish": "Avalda",
+    "deleteConfirm": "Kustuta teade \"{{title}}\"?",
+    "comments": "kommentaari",
+    "noComments": "Kommentaare pole veel",
+    "addComment": "Kirjuta kommentaar...",
+    "voteResults": "Hääletuse tulemused"
+  }
+}

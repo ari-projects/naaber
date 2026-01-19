@@ -1,0 +1,43 @@
+{
+  "title": "Teated",
+  "create": "Loo teade",
+  "edit": "Muuda",
+  "delete": "Kustuta",
+  "deleteConfirm": "Kustuta see teade?",
+  "noAnnouncements": "Pole teateid",
+  "form": {
+    "title": "Pealkiri",
+    "content": "Sisu",
+    "type": "Tüüp",
+    "sendEmail": "Saada e-postiga",
+    "sendEmailDesc": "Teavita kõiki elanikke e-postiga"
+  },
+  "types": {
+    "news": "Uudis",
+    "update": "Uuendus",
+    "vote": "Hääletus"
+  },
+  "vote": {
+    "title": "Hääletus",
+    "options": "Vastusevariandid",
+    "addOption": "Lisa variant",
+    "deadline": "Hääletuse tähtaeg",
+    "deadlineHelp": "Mis kuupäevani saab hääletada",
+    "results": "Tulemused",
+    "totalVotes": "Hääli kokku: {{count}}",
+    "yourVote": "Teie hääl",
+    "voteButton": "Hääleta",
+    "alreadyVoted": "Olete juba hääletanud",
+    "votingEnded": "Hääletus lõppenud",
+    "votingEndsIn": "Hääletus kuni {{date}}"
+  },
+  "comments": {
+    "title": "Kommentaarid",
+    "noComments": "Pole kommentaare",
+    "addComment": "Lisa kommentaar",
+    "placeholder": "Teie kommentaar...",
+    "send": "Saada"
+  },
+  "postedBy": "Avaldas {{name}}",
+  "postedAt": "{{date}}"
+}

@@ -1,0 +1,43 @@
+{
+  "title": "Maintenance Requests",
+  "createNew": "New Request",
+  "myRequests": "My Requests",
+  "allRequests": "All Requests",
+  "noRequests": "No maintenance requests yet",
+  "fields": {
+    "title": "Title",
+    "description": "Description",
+    "priority": "Priority",
+    "images": "Photos",
+    "addImage": "Add Photo"
+  },
+  "placeholders": {
+    "title": "Brief description of the issue",
+    "description": "Describe the problem in detail..."
+  },
+  "priority": {
+    "low": "Low",
+    "medium": "Medium",
+    "high": "High"
+  },
+  "status": {
+    "all": "All",
+    "open": "Open",
+    "in_progress": "In Progress",
+    "resolved": "Resolved"
+  },
+  "actions": {
+    "markInProgress": "Mark In Progress",
+    "markResolved": "Mark Resolved",
+    "reopen": "Reopen"
+  },
+  "comments": {
+    "title": "Comments",
+    "add": "Add Comment",
+    "placeholder": "Your comment..."
+  },
+  "createdBy": "Created by {{name}}",
+  "createdAt": "{{date}}",
+  "resolvedAt": "Resolved {{date}}",
+  "flat": "Flat {{number}}"
+}

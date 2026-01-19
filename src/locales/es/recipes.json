@@ -1,0 +1,59 @@
+{
+  "card": {
+    "cookingTime": "{{time}} min",
+    "servings": "{{count}} porción",
+    "servings_plural": "{{count}} porciones",
+    "calories": "{{count}} cal",
+    "viewRecipe": "Ver receta",
+    "cooked": "Cocinado",
+    "notCooked": "Sin cocinar"
+  },
+  "drawer": {
+    "ingredients": "Ingredientes",
+    "instructions": "Instrucciones",
+    "nutrition": "Nutrición",
+    "tips": "Consejos para el éxito",
+    "step": "Paso {{number}}",
+    "servingSize": "Por porción",
+    "prepTime": "Prep: {{time}} min",
+    "cookTime": "Cocción: {{time}} min",
+    "totalTime": "Total: {{time}} min",
+    "person": "persona",
+    "persons": "personas",
+    "equipment": "Equipamiento",
+    "noInstructionsAvailable": "No hay instrucciones de cocina disponibles",
+    "instructionsNotAvailable": "Instrucciones no disponibles"
+  },
+  "nutrition": {
+    "calories": "Calorías",
+    "protein": "Proteína",
+    "carbs": "Carbohidratos",
+    "fat": "Grasa",
+    "fiber": "Fibra",
+    "sugar": "Azúcar",
+    "sodium": "Sodio"
+  },
+  "alternatives": {
+    "title": "Recetas alternativas",
+    "subtitle": "Elige un reemplazo para esta comida",
+    "loading": "Buscando alternativas...",
+    "noAlternatives": "No hay alternativas disponibles",
+    "selectThis": "Seleccionar esta receta"
+  },
+  "difficulty": {
+    "easy": "Fácil",
+    "medium": "Media",
+    "hard": "Difícil"
+  },
+  "tags": {
+    "quick": "Rápido",
+    "healthy": "Saludable",
+    "budget": "Económico",
+    "vegetarian": "Vegetariano",
+    "vegan": "Vegano",
+    "glutenFree": "Sin gluten",
+    "dairyFree": "Sin lácteos",
+    "lowCarb": "Bajo en carbohidratos",
+    "highProtein": "Alto en proteína"
+  }
+}

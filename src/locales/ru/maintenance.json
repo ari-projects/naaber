@@ -1,0 +1,43 @@
+{
+  "title": "Заявки на обслуживание",
+  "createNew": "Новая заявка",
+  "myRequests": "Мои заявки",
+  "allRequests": "Все заявки",
+  "noRequests": "Заявок пока нет",
+  "fields": {
+    "title": "Заголовок",
+    "description": "Описание",
+    "priority": "Приоритет",
+    "images": "Фотографии",
+    "addImage": "Добавить фото"
+  },
+  "placeholders": {
+    "title": "Краткое описание проблемы",
+    "description": "Опишите проблему подробно..."
+  },
+  "priority": {
+    "low": "Низкий",
+    "medium": "Средний",
+    "high": "Высокий"
+  },
+  "status": {
+    "all": "Все",
+    "open": "Открыта",
+    "in_progress": "В работе",
+    "resolved": "Решена"
+  },
+  "actions": {
+    "markInProgress": "Взять в работу",
+    "markResolved": "Отметить как решённую",
+    "reopen": "Открыть заново"
+  },
+  "comments": {
+    "title": "Комментарии",
+    "add": "Добавить комментарий",
+    "placeholder": "Ваш комментарий..."
+  },
+  "createdBy": "Создал {{name}}",
+  "createdAt": "{{date}}",
+  "resolvedAt": "Решено {{date}}",
+  "flat": "Кв. {{number}}"
+}

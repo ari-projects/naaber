@@ -1,0 +1,31 @@
+{
+  "title": "Dokumendid",
+  "upload": "Laadi dokument üles",
+  "noDocuments": "Dokumente pole veel",
+  "fields": {
+    "title": "Nimi",
+    "description": "Kirjeldus",
+    "category": "Kategooria",
+    "file": "Fail",
+    "fileUrl": "Faili URL",
+    "selectFile": "Valige fail"
+  },
+  "placeholders": {
+    "title": "Dokumendi nimi",
+    "description": "Lühikirjeldus..."
+  },
+  "category": {
+    "all": "Kõik",
+    "rules": "Reeglid",
+    "minutes": "Koosolekute protokollid",
+    "contracts": "Lepingud",
+    "other": "Muu"
+  },
+  "fileUrlHint": "Sisestage link dokumendile (Google Drive, Dropbox jne)",
+  "uploadedBy": "Laadis üles {{name}}",
+  "uploadedAt": "{{date}}",
+  "download": "Laadi alla",
+  "delete": "Kustuta",
+  "deleteConfirm": "Kustuta dokument «{{title}}»?",
+  "fileSize": "Suurus: {{size}}"
+}

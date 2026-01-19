@@ -1,0 +1,33 @@
+{
+  "title": "События",
+  "createNew": "Новое событие",
+  "upcoming": "Ближайшие",
+  "all": "Все события",
+  "past": "Прошедшие",
+  "noEvents": "Событий пока нет",
+  "fields": {
+    "title": "Название",
+    "description": "Описание",
+    "date": "Дата",
+    "time": "Время",
+    "endDate": "Дата окончания",
+    "location": "Место",
+    "sendEmail": "Отправить уведомление",
+    "sendEmailDesc": "Уведомить жильцов по email"
+  },
+  "placeholders": {
+    "title": "Название события",
+    "description": "Подробности...",
+    "location": "напр., Общий зал"
+  },
+  "attend": "Буду",
+  "notAttend": "Не буду",
+  "attending": "Участвую",
+  "notAttending": "Не участвую",
+  "attendees": "Участники",
+  "attendeesCount": "{{count}} участников",
+  "noAttendees": "Пока никто не записался",
+  "location": "Место: {{location}}",
+  "date": "{{date}}",
+  "createdBy": "Организатор: {{name}}"
+}

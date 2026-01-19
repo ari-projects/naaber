@@ -1,0 +1,12 @@
+{
+  "title": "Üldvestlus",
+  "subtitle": "Arutelu elanike ja esimehega",
+  "placeholder": "Sisestage sõnum...",
+  "send": "Saada",
+  "noMessages": "Sõnumeid pole veel",
+  "startConversation": "Alustage arutelu esimesena!",
+  "president": "Esimees",
+  "flat": "Korter {{number}}",
+  "loadMore": "Laadi veel",
+  "newMessages": "Uued sõnumid"
+}

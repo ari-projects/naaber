@@ -1,0 +1,43 @@
+{
+  "title": "Announcements",
+  "create": "Create Announcement",
+  "edit": "Edit",
+  "delete": "Delete",
+  "deleteConfirm": "Delete this announcement?",
+  "noAnnouncements": "No announcements",
+  "form": {
+    "title": "Title",
+    "content": "Content",
+    "type": "Type",
+    "sendEmail": "Send by email",
+    "sendEmailDesc": "Notify all residents by email"
+  },
+  "types": {
+    "news": "News",
+    "update": "Update",
+    "vote": "Vote"
+  },
+  "vote": {
+    "title": "Vote",
+    "options": "Options",
+    "addOption": "Add Option",
+    "deadline": "Voting Deadline",
+    "deadlineHelp": "Until when can people vote",
+    "results": "Results",
+    "totalVotes": "Total votes: {{count}}",
+    "yourVote": "Your Vote",
+    "voteButton": "Vote",
+    "alreadyVoted": "You have already voted",
+    "votingEnded": "Voting has ended",
+    "votingEndsIn": "Voting until {{date}}"
+  },
+  "comments": {
+    "title": "Comments",
+    "noComments": "No comments",
+    "addComment": "Add Comment",
+    "placeholder": "Your comment...",
+    "send": "Send"
+  },
+  "postedBy": "Posted by {{name}}",
+  "postedAt": "{{date}}"
+}

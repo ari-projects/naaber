@@ -1,0 +1,28 @@
+{
+  "title": "Profile",
+  "personalInfo": "Personal Information",
+  "editProfile": "Edit Profile",
+  "changePassword": "Change Password",
+  "name": "First Name",
+  "surname": "Last Name",
+  "email": "Email",
+  "phone": "Phone",
+  "language": "Language",
+  "flat": "Flat",
+  "community": "Community",
+  "role": "Role",
+  "roles": {
+    "president": "President",
+    "member": "Resident"
+  },
+  "memberSince": "Member since {{date}}",
+  "password": {
+    "current": "Current Password",
+    "new": "New Password",
+    "confirm": "Confirm Password",
+    "changed": "Password successfully changed"
+  },
+  "saved": "Changes saved",
+  "logout": "Log out",
+  "logoutConfirm": "Are you sure you want to log out?"
+}

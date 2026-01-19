@@ -1,0 +1,48 @@
+{
+  "title": "Mi perfil",
+  "subtitle": "Administra la configuración de tu cuenta",
+  "sections": {
+    "personal": "Información personal",
+    "preferences": "Preferencias",
+    "notifications": "Notificaciones",
+    "account": "Cuenta"
+  },
+  "fields": {
+    "name": "Nombre completo",
+    "namePlaceholder": "Introduce tu nombre",
+    "email": "Correo electrónico",
+    "emailPlaceholder": "tu@correo.com",
+    "phone": "Número de teléfono",
+    "phonePlaceholder": "Introduce tu teléfono",
+    "country": "País",
+    "language": "Idioma",
+    "measurementSystem": "Sistema de medidas",
+    "metric": "Métrico (kg, cm)",
+    "imperial": "Imperial (lb, in)"
+  },
+  "actions": {
+    "save": "Guardar cambios",
+    "saving": "Guardando...",
+    "saved": "¡Cambios guardados!",
+    "deleteAccount": "Eliminar cuenta",
+    "signOut": "Cerrar sesión"
+  },
+  "notifications": {
+    "emailUpdates": "Actualizaciones por correo",
+    "weeklyDigest": "Resumen semanal de comidas",
+    "newFeatures": "Nuevas funciones y consejos",
+    "promotions": "Ofertas promocionales"
+  },
+  "deleteAccount": {
+    "title": "Eliminar cuenta",
+    "warning": "Esta acción no se puede deshacer. Todos tus datos serán eliminados permanentemente.",
+    "confirm": "Escribe ELIMINAR para confirmar",
+    "button": "Eliminar mi cuenta"
+  },
+  "errors": {
+    "nameRequired": "Por favor, introduce tu nombre",
+    "phoneTooShort": "El número de teléfono debe tener al menos 8 dígitos",
+    "phoneInvalid": "El número de teléfono solo puede contener números",
+    "saveFailed": "Error al guardar los cambios. Por favor, inténtalo de nuevo."
+  }
+}

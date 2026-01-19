@@ -1,0 +1,83 @@
+{
+  "section1": {
+    "title": "Sobre 9 Meals: creado por dos familias para la vida real",
+    "intro": "Somos dos familias jóvenes con niños pequeños, trabajos a tiempo completo y el mismo dolor de cabeza diario que probablemente conoces muy bien:",
+    "introHighlight": "¿Qué vamos a comer esta semana?",
+    "struggling": "Entre el trabajo, llevar a los niños al colegio, actividades y tratar de descansar un poco, nos costaba:",
+    "painPoints": [
+      "Cocinar comida diaria que fuera saludable y realmente sabrosa",
+      "Decidir <1>todos los días</1> qué preparar para desayuno, almuerzo y cena",
+      "Adivinar qué comprar en el supermercado y luego llevarlo a casa",
+      "Ver cómo la buena comida se echa a perder en la nevera",
+      "Mantener un presupuesto de comida realista y predecible",
+      "Encontrar algo lo suficientemente flexible y simple para sobrevivir una semana ocupada"
+    ],
+    "tried": "Probamos hojas de cálculo, apps de recetas, notas en el móvil… nada funcionó realmente. O era demasiado rígido, demasiado manual, o no entendía a nuestras familias, nuestro presupuesto y nuestros hábitos.",
+    "built": "Así que creamos <1>9 Meals</1> — primero para nosotros mismos, como una herramienta real para hacer la vida familiar más tranquila, más barata y más deliciosa. Y ahora lo abrimos para que tú también puedas usarlo."
+  },
+  "section2": {
+    "title": "Qué hace realmente 9 Meals por tu semana",
+    "intro": "9 Meals es un <1>planificador de comidas con IA para familias</1> que te ayuda a comer bien según tu propio horario — sin pensar en comida todo el día ni buscar recetas cada noche.",
+    "everyRun": "En cada ejecución, obtienes:",
+    "features": [
+      "<1>9 comidas flexibles</1> — exactamente 3 desayunos, 3 almuerzos, 3 cenas",
+      "Todo adaptado a tu <1>gusto, dieta y presupuesto</1>",
+      "Con una <1>lista de compras inteligente</1> lista para comprar en tienda"
+    ],
+    "setPreferences": "Estableces tu presupuesto, dieta y cocinas que te gustan. 9 Meals entonces crea un conjunto de recetas que:",
+    "recipeFeatures": [
+      "Se mantienen frescas hasta <1>5 días</1>",
+      "Son lo suficientemente simples para que un padre cansado las cocine después del trabajo",
+      "Usan ingredientes de supermercado que realmente puedes encontrar",
+      "Reutilizan productos entre comidas para reducir el desperdicio y ahorrar dinero"
+    ],
+    "flexibility": "Puedes <1>eliminar comidas o tiempos de comida completos</1> que no te gusten, generar un nuevo conjunto cuando este termine, y comprar con una lista que muestra nombres exactos de productos y cantidades — para evitar comprar de más \"por si acaso\" y tirar comida después.",
+    "summary": "En lenguaje cotidiano: 9 Meals te ayuda a <1>dejar de buscar recetas</1>, <2>dejar de comprar de más</2>, y <3>dejar de estresarte por qué hay para cenar</3>."
+  },
+  "section3": {
+    "title": "Cómo 9 Meals ayuda a familias como la nuestra",
+    "intro": "En nuestras dos casas, 9 Meals se convirtió en parte de la rutina semanal:",
+    "routine": [
+      "El fin de semana establecemos un <1>presupuesto, dieta y cocinas preferidas</1>",
+      "En unos momentos, obtenemos <1>9 nuevas comidas</1> que se sienten como \"restaurante en casa\" pero son realistas para noches de colegio",
+      "La app genera una <1>lista de compras inteligente</1>, agrupada por categoría, con cantidad por producto",
+      "Compramos una vez, a menudo en nuestro supermercado local, y sabemos aproximadamente lo que costará la semana",
+      "Durante la semana, <1>comemos lo que nos apetece ese día</1> — desayuno, almuerzo o cena — o saltamos una comida si salimos"
+    ],
+    "learning": "Como 9 Meals <1>aprende tus gustos con el tiempo</1>, cada nuevo conjunto de comidas se acerca más a lo que tu familia realmente le gusta comer. Guardas tus favoritas, eliminas lo que no funciona, y la IA se adapta silenciosamente en segundo plano.",
+    "resultsIntro": "El resultado para nosotros:",
+    "results": [
+      "Menos desperdicio de comida",
+      "Menos compras impulsivas",
+      "Un presupuesto de comida más claro y predecible",
+      "Niños descubriendo nuevas comidas sin dramas",
+      "Menos discusiones de \"¿qué cocinamos hoy?\" en la cocina"
+    ],
+    "mission": "Esa es la verdadera misión detrás de 9 Meals: <1>hacer que comer todos los días sea más tranquilo, más barato y más agradable</1> para familias normales — no solo para personas que aman cocinar."
+  },
+  "section4": {
+    "title": "Nuestro modelo freemium: simple, honesto y sostenible",
+    "wantToStay": "Queremos que 9 Meals siga siendo:",
+    "values": [
+      "Accesible para familias que cuidan sus gastos",
+      "Independiente y enfocado en usuarios reales, no en anuncios",
+      "Sostenible para que podamos seguir mejorándolo mientras cuidamos de nuestros propios hijos"
+    ],
+    "freemiumIntro": "Para eso, usamos un <1>modelo freemium</1>:",
+    "plans": [
+      "Como <1>usuario gratuito</1>, puedes crear <2>hasta 3 conjuntos de comidas por semana</2> y experimentar lo esencial de 9 Meals: planes de 9 comidas personalizados más una lista de compras inteligente.",
+      "Si necesitas más — más conjuntos de comidas por semana, dejar que la IA <1>aprenda tus gustos con el tiempo</1>, o guardar y reutilizar tus <2>comidas favoritas</2> — puedes elegir una suscripción económica."
+    ],
+    "coversIntro": "Tu suscripción cubre principalmente:",
+    "covers": [
+      "Uso de IA (pagamos por cada generación)",
+      "Servidores, dominios e infraestructura",
+      "Nuestro tiempo, para poder mantener y mejorar activamente la app mientras mantenemos a nuestras familias",
+      "Un modesto presupuesto de marketing para que las personas que realmente necesitan esta herramienta puedan encontrarla"
+    ],
+    "noDarkPatterns": "Sin patrones oscuros, sin ventas ocultas, sin descuentos falsos. Solo un trato simple y transparente:",
+    "quote": "Si 9 Meals hace tu semana más fácil y te ayuda a gastar menos en comida mientras desperdicias menos, puedes apoyar el proyecto con una pequeña suscripción. Si no, puedes quedarte en el plan gratuito y seguir obteniendo valor.",
+    "closing": "Creamos 9 Meals para mejorar nuestra propia calidad de vida por menos dinero. Ahora lo compartimos para que otras familias puedan <1>comer bien, a su manera — con menos estrés, menos desperdicio y un presupuesto que tiene sentido.</1>",
+    "cta": "Obtén tus 9 Meals Gratis"
+  }
+}

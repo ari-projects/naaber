@@ -1,0 +1,39 @@
+{
+  "title": "Maksed",
+  "createNew": "Uus makse",
+  "myPayments": "Minu maksed",
+  "allPayments": "Kõik maksed",
+  "noPayments": "Makseid pole veel",
+  "totalDue": "Maksmisele kuuluv summa",
+  "selectFlat": "Valige korter",
+  "fields": {
+    "description": "Kirjeldus",
+    "amount": "Summa",
+    "dueDate": "Tähtaeg",
+    "flat": "Korter",
+    "allFlats": "Kõigile korteritele",
+    "invoiceUrl": "Arve link"
+  },
+  "placeholders": {
+    "description": "nt Jaanuari kommunaalkulud",
+    "invoiceUrl": "https://..."
+  },
+  "status": {
+    "all": "Kõik",
+    "pending": "Maksmata",
+    "paid": "Makstud",
+    "overdue": "Tähtaja ületanud"
+  },
+  "markPaid": "Makstud",
+  "paidAt": "Makstud",
+  "dueDate": "Tähtaeg",
+  "flat": "Korter {{number}}",
+  "amount": "{{amount}} {{currency}}",
+  "total": "Kokku maksta",
+  "overdueSummary": "Tähtaja ületanud: {{count}} makset",
+  "uploadInvoice": "Laadi arve üles",
+  "invoiceRequired": "Palun esitage makse kinnitamiseks link arvele või kviitungile.",
+  "invoiceUrlHint": "Link pangaülekande kinnitusele, kviitungi fotole või makse kuvatõmmisele",
+  "confirmPayment": "Kinnita makse",
+  "viewInvoice": "Vaata arvet"
+}

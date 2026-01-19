@@ -1,0 +1,74 @@
+{
+  "badge": "Premium",
+  "title": "Hazte Premium",
+  "titleFull": "Hazte Premium",
+  "subtitle": "Desbloquea todo el poder de la planificación de comidas con IA",
+  "promo": {
+    "price": "Solo $1.25 / semana",
+    "trial": "7 días de prueba gratis",
+    "benefits": {
+      "unlimited": "Créditos ilimitados",
+      "favorites": "Guarda tus recetas favoritas",
+      "aiLearns": "La IA aprenderá tu gusto"
+    },
+    "learnMore": "Más información"
+  },
+  "benefits": {
+    "title": "Beneficios Premium",
+    "unlimited": "Créditos ilimitados",
+    "unlimitedDesc": "Crea todos los planes de comidas que quieras",
+    "replacements": "Reemplazos ilimitados",
+    "replacementsDesc": "Cambia cualquier receta sin límites",
+    "aiLearning": "La IA aprende tu gusto",
+    "aiLearningDesc": "La IA aprenderá tu gusto",
+    "aiTailored": "Personalización única con IA",
+    "priority": "Soporte prioritario",
+    "priorityDesc": "Obtén ayuda cuando la necesites",
+    "exclusive": "Recetas exclusivas",
+    "exclusiveDesc": "Accede a recetas solo para premium"
+  },
+  "pricing": {
+    "monthly": "Mensual",
+    "yearly": "Anual",
+    "perMonth": "/mes",
+    "perWeek": "/semana",
+    "perYear": "/año",
+    "only": "Solo",
+    "or": "o",
+    "save": "Ahorra {{percent}}%",
+    "mostPopular": "Más popular",
+    "billedYearly": "Facturado anualmente",
+    "freeTrial": "{{days}} días de prueba gratis"
+  },
+  "cta": {
+    "subscribe": "Suscribirse ahora",
+    "startTrial": "Comenzar prueba gratis",
+    "trialDays": "{{days}} días de prueba gratis",
+    "cancelAnytime": "Cancela cuando quieras",
+    "discoverPlans": "Descubre planes premium"
+  },
+  "triesLeft": {
+    "title": "Intentos restantes",
+    "youHave": "Tienes",
+    "subtitle": "Te queda {{count}} intento esta semana",
+    "subtitle_plural": "Te quedan {{count}} intentos esta semana",
+    "noTries": "No quedan intentos",
+    "resetInfo": "Los intentos se reinician cada lunes",
+    "getPremium": "Hazte Premium para planes ilimitados",
+    "becomeMember": "Hazte miembro premium para obtener planes de comidas ilimitados y más."
+  },
+  "userArea": {
+    "unlimitedPlans": "Planes ilimitados",
+    "learnMore": "Más información"
+  },
+  "comparison": {
+    "title": "Gratis vs Premium",
+    "free": "Gratis",
+    "premium": "Premium",
+    "weeklyTries": "Intentos semanales",
+    "replacements": "Reemplazos de recetas",
+    "limited": "Limitado",
+    "aiPersonalization": "Personalización con IA",
+    "support": "Soporte"
+  }
+}

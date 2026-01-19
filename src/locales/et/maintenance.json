@@ -1,0 +1,43 @@
+{
+  "title": "Hooldustaotlused",
+  "createNew": "Uus taotlus",
+  "myRequests": "Minu taotlused",
+  "allRequests": "Kõik taotlused",
+  "noRequests": "Hooldustaotlusi pole veel",
+  "fields": {
+    "title": "Pealkiri",
+    "description": "Kirjeldus",
+    "priority": "Prioriteet",
+    "images": "Fotod",
+    "addImage": "Lisa foto"
+  },
+  "placeholders": {
+    "title": "Probleemi lühikirjeldus",
+    "description": "Kirjeldage probleemi üksikasjalikult..."
+  },
+  "priority": {
+    "low": "Madal",
+    "medium": "Keskmine",
+    "high": "Kõrge"
+  },
+  "status": {
+    "all": "Kõik",
+    "open": "Avatud",
+    "in_progress": "Töös",
+    "resolved": "Lahendatud"
+  },
+  "actions": {
+    "markInProgress": "Võta töösse",
+    "markResolved": "Märgi lahendatuks",
+    "reopen": "Ava uuesti"
+  },
+  "comments": {
+    "title": "Kommentaarid",
+    "add": "Lisa kommentaar",
+    "placeholder": "Teie kommentaar..."
+  },
+  "createdBy": "Lõi {{name}}",
+  "createdAt": "{{date}}",
+  "resolvedAt": "Lahendatud {{date}}",
+  "flat": "Korter {{number}}"
+}

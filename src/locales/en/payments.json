@@ -1,0 +1,39 @@
+{
+  "title": "Payments",
+  "createNew": "New Payment",
+  "myPayments": "My Payments",
+  "allPayments": "All Payments",
+  "noPayments": "No payments yet",
+  "totalDue": "Total amount due",
+  "selectFlat": "Select a flat",
+  "fields": {
+    "description": "Description",
+    "amount": "Amount",
+    "dueDate": "Due Date",
+    "flat": "Flat",
+    "allFlats": "For all flats",
+    "invoiceUrl": "Invoice link"
+  },
+  "placeholders": {
+    "description": "e.g., January utilities",
+    "invoiceUrl": "https://..."
+  },
+  "status": {
+    "all": "All",
+    "pending": "Pending",
+    "paid": "Paid",
+    "overdue": "Overdue"
+  },
+  "markPaid": "Mark Paid",
+  "paidAt": "Paid",
+  "dueDate": "Due",
+  "flat": "Flat {{number}}",
+  "amount": "{{amount}} {{currency}}",
+  "total": "Total to Pay",
+  "overdueSummary": "Overdue: {{count}} payments",
+  "uploadInvoice": "Upload Invoice",
+  "invoiceRequired": "Please provide a link to the payment invoice or receipt to confirm payment.",
+  "invoiceUrlHint": "Link to bank transfer confirmation, receipt photo, or payment screenshot",
+  "confirmPayment": "Confirm Payment",
+  "viewInvoice": "View invoice"
+}

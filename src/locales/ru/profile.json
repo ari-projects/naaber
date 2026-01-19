@@ -1,0 +1,28 @@
+{
+  "title": "Профиль",
+  "personalInfo": "Личные данные",
+  "editProfile": "Редактировать профиль",
+  "changePassword": "Изменить пароль",
+  "name": "Имя",
+  "surname": "Фамилия",
+  "email": "Email",
+  "phone": "Телефон",
+  "language": "Язык",
+  "flat": "Квартира",
+  "community": "Сообщество",
+  "role": "Роль",
+  "roles": {
+    "president": "Председатель",
+    "member": "Жилец"
+  },
+  "memberSince": "Участник с {{date}}",
+  "password": {
+    "current": "Текущий пароль",
+    "new": "Новый пароль",
+    "confirm": "Подтвердите пароль",
+    "changed": "Пароль успешно изменён"
+  },
+  "saved": "Изменения сохранены",
+  "logout": "Выйти",
+  "logoutConfirm": "Вы уверены, что хотите выйти?"
+}

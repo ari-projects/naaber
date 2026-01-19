@@ -1,0 +1,12 @@
+{
+  "title": "Community Chat",
+  "subtitle": "Discussion with residents and president",
+  "placeholder": "Type a message...",
+  "send": "Send",
+  "noMessages": "No messages yet",
+  "startConversation": "Be the first to start the conversation!",
+  "president": "President",
+  "flat": "Flat {{number}}",
+  "loadMore": "Load More",
+  "newMessages": "New messages"
+}
